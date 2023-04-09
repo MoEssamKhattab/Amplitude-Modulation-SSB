@@ -1,10 +1,14 @@
-# Amplitude Modulation-SSB
+# Single Sideband (SSB) Amplitude Modulation
 A MATLAB code to generate a single side band (SSB) signal using the SSB Hilbert method (phase shift method); implementing the suitable demodulator (Coherent Demodulation) to extract the original message signal from the SSB, either the USB or the LSB. 
 
 ## Requirements
 
 1. Generate the message signal $m(t)$, shown in Fig. 1, where $B = 1 KHz$ and plot it,
 $$m(t) = {sinc(B\pi) = {\sin(\pi Bt) \over \pi Bt}}$$
+![m(t)](https://user-images.githubusercontent.com/95503706/230794178-d6f396e6-593a-4f1d-963c-143b1e373e1d.png)
+<p align="center"> 
+*Fig. 1* 
+</p>
 
 2. Generate the modulated signal, $s_2(t)$, using the SSB modulator shown in Fig. 2, where the carrier wave has $1 Volt$ amplitude and $10 KHz$ frequency.
 
