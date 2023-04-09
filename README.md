@@ -11,6 +11,7 @@ $$m(t) = {sinc(B\pi) = {\sin(\pi Bt) \over \pi Bt}}$$
 2. Generate the modulated signal, $s_2(t)$, using the SSB modulator shown in Fig. 2, where the carrier wave has $1 Volt$ amplitude and $10 KHz$ frequency.
 
 ![SSB_Modulator](https://user-images.githubusercontent.com/95503706/230795016-5a1a22ee-927e-4565-8a89-073c5bc6b175.png "Fig. 2")
+
 *Fig. 2*
 
 3. Plot the USB output, the LSB output and the spectrum of the modulated signal in both cases.
