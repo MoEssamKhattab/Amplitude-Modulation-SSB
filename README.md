@@ -5,12 +5,12 @@ A MATLAB code to generate a single side band (SSB) signal using the SSB Hilbert 
 
 1. Generate the message signal $m(t)$, shown in Fig. 1, where $B = 1 KHz$ and plot it,
 $$m(t) = {sinc(B\pi) = {\sin(\pi Bt) \over \pi Bt}}$$
-![m(t)](https://user-images.githubusercontent.com/95503706/230794178-d6f396e6-593a-4f1d-963c-143b1e373e1d.png)
-<p align="center"> 
-*Fig. 1* 
-</p>
+![m(t)](https://user-images.githubusercontent.com/95503706/230794178-d6f396e6-593a-4f1d-963c-143b1e373e1d.png "Fig. 1")
+*Fig. 1*
 
 2. Generate the modulated signal, $s_2(t)$, using the SSB modulator shown in Fig. 2, where the carrier wave has $1 Volt$ amplitude and $10 KHz$ frequency.
+![SSB_Modulator](https://user-images.githubusercontent.com/95503706/230795016-5a1a22ee-927e-4565-8a89-073c5bc6b175.png "Fig. 2")
+*Fig. 2"
 
 3. Plot the USB output, the LSB output and the spectrum of the modulated signal in both cases.
 
